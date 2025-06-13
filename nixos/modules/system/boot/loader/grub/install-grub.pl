@@ -326,6 +326,7 @@ $conf .= "
       set timeout=$timeout
     fi
     set timeout_style=$timeoutStyle
+    set rotation=180
 
     function savedefault {
         if [ -z \"\${boot_once}\"]; then
